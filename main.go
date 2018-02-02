@@ -26,5 +26,7 @@ func main() {
 	e.POST("/message", controllers.KakaoMessage())
 
 	e.Logger.Fatal(e.Start(":8080"))
+
+
 }
 
